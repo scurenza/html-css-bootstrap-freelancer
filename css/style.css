@@ -109,3 +109,32 @@ input[type=text]{
 .form .container-md{
     padding: 0;
 }
+
+/* FOOTER */
+/* Footer-top */
+.footer-top{
+    background-color: var(--light-blue);
+}
+
+.footer-top .container-md{
+    width: 80%;
+}
+
+.social{
+    color: white;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.green{
+    text-decoration: none;
+    color: var(--green);
+}
+
+/* Footer bottom */
+.footer-bottom{
+    background-color: var(--dark-blue);
+}
