@@ -1,0 +1,23 @@
+/* COMMON */
+img {
+    max-width: 100%;
+}
+
+/* Root */
+:root{
+    /* Colors */
+    --dark-blue: #2c3e50;
+    --green: #1abc9c;
+
+}
+
+/* HEADER */
+header{
+    height: 80px;
+    background-color: var(--dark-blue);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
