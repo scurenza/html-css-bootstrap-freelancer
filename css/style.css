@@ -24,6 +24,10 @@ ul li{
 /* HEADER */
 header{
     background-color: var(--dark-blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 header span{
@@ -48,6 +52,7 @@ i{
 /* Jumbotron */
 .jumbotron{
     background-color: var(--green);
+    margin-top: 5em;
 }
 
 .image{
@@ -76,4 +81,31 @@ i{
 /* About */
 .about{
     background-color: var(--green);
+}
+
+.about p{
+    font-weight: 600;
+}
+
+/* Contacts */
+.contacts .hr-special .bar{
+    background-color: var(--dark-blue);
+}
+
+input[type=text]{
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 100%;
+}
+
+#message{
+    height: 200px;
+}
+
+.contacts .btn{
+    background-color: var(--green);
+}
+
+.form .container-md{
+    padding: 0;
 }
