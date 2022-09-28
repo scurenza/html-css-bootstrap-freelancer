@@ -21,6 +21,12 @@ ul li{
 
 }
 
+/* Containers */
+.about .container-md,
+.contacts .container-md{
+    width: 80%;
+}
+
 /* HEADER */
 header{
     background-color: var(--dark-blue);
@@ -94,9 +100,12 @@ i{
 
 input[type=text]{
     border: none;
-    border-bottom: 2px solid grey;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
     width: 100%;
+    box-shadow: none;
 }
+
 
 #message{
     height: 200px;
@@ -108,6 +117,10 @@ input[type=text]{
 
 .form .container-md{
     padding: 0;
+}
+
+.contacts .button a:hover{
+    background-color: #1abc9c96;
 }
 
 /* FOOTER */
@@ -138,3 +151,4 @@ input[type=text]{
 .footer-bottom{
     background-color: var(--dark-blue);
 }
+
