@@ -103,12 +103,23 @@ input[type=text]{
     border-radius: 0;
     border-bottom: 1px solid grey;
     width: 100%;
+    box-shadow: white;
+    
+}
+
+#name{
     box-shadow: none;
+    border-color: grey;
 }
 
 
 #message{
-    height: 200px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border-color: grey;
 }
 
 .contacts .btn{

@@ -171,16 +171,30 @@
 
                 <!-- Form -->
                 <form action="">
-                    <div>
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name">
-                    </div>
-                </form>
+                        <div class="form-floating text-start mb-3">
+                            <input type="text" class="form-control ms_form" id="name" placeholder="Name">
+                            <label for="name" class="">Name</label>
+                        </div>
 
-                <div class="button d-flex ms-5 justify-content-start">
-                    <a href="#" class="btn text-white d-inline">Send</a>
-                </div>
-                
+                        <div class="form-floating text-start mb-3">
+                            <input type="text" class="form-control ms_form" id="emailAddress" placeholder="Email Address">
+                            <label for="emailAddress" class="">Email Address</label>
+                        </div>
+
+                        <div class="form-floating text-start mb-3">
+                            <input type="text" class="form-control ms_form" id="phoneNumber" placeholder="Phone Number">
+                            <label for="phoneNumber" class="">Phone Number</label>
+                        </div>
+
+                        <div class="mb-3 text-start">
+                            <label for="message" class="form-label ms-3">Message</label>
+                            <textarea class="form-control"  id="message" rows="10"></textarea>
+                        </div>
+                        
+                        <div class="button d-flex justify-content-start">
+                            <a href="#" class="btn text-white d-inline">Send</a>
+                        </div>
+                </form>
             </div>
         </div>
     </main>
