@@ -108,7 +108,9 @@ input[type=text]{
     
 }
 
-#name{
+#name,
+#emailAddress,
+#phoneNumber{
     box-shadow: none;
     border-color: grey;
 }
